@@ -1,0 +1,154 @@
+* {
+  content: center;
+  padding: 10px 30px 10px 30px;
+}
+
+
+body {
+  background-image: url("https://oyebesmartest.com/public/uploads/preview/-11550902967k9aikvlvmx.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: Neucha, sans-serif;
+  background-color: rgba(0, 0, 0, 0.5);
+  font-size: 1.5em;
+  color: white;
+  line-height: 2em;
+}
+
+#services, #gallery, #reviews, #contacts {
+padding-top: 50px;
+}
+
+#header {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+padding-bottom: 10px;
+}
+
+#sub-header {
+font-family: Dancing Script, sans-serif;
+display: flex;
+flex-direction: row;
+font-size: 2.5em;
+margin-bottom: 20px;
+}
+
+ul>li {
+display: inline-block;
+padding: 4px;
+}
+
+nav {
+text-align: right;
+margin-top: 50px;
+}
+
+a{
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #f2f2f2;
+  padding: 30px;
+}
+
+nav>ul>li>a:hover {
+box-shadow: 0 0 0 0 0.625em rgba(0, 0, 0, 0.1), inset 0 0 0.625em rgba(255,255, 255, 0.6);
+background-color: rgba(107, 93, 84, 0.678);
+color: rgba(0, 35, 122, 0.7);
+}
+
+#home>img {
+width: 100%;
+}
+
+#services {
+display: flex;
+padding: 5px;
+border-bottom: 2px solid black;
+padding-bottom: 20px;
+border-radius: 5px;
+}
+
+#about {
+display: flex;
+flex-direction: row;
+border-bottom: 2px solid black;
+padding-bottom: 20px;
+}
+
+#about>div {
+padding: 10px;
+}
+
+
+
+#design, #development, #photography {
+padding: 8px;
+}
+
+/*#design {
+display: flex;
+}
+
+#development {
+display: flex;
+}
+
+#photography {
+display: flex;
+}*/
+
+#gallery {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+flex-wrap: wrap;
+border-bottom: 2px solid black;
+padding-bottom: 20px;
+}
+
+#gallery>img {
+padding: 10px;
+}
+
+
+#pendo, #mike, #grace {
+display: flex;
+}
+
+#reviews {
+display: flex;
+border-bottom: 2px solid black;
+padding-bottom: 20px;
+}
+
+.rule {
+border-left: 2px solid black;
+height: 200px;
+}
+
+#reviews>div>p {
+padding: 7px;
+}
+
+#contacts {
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+border: 2px solid black;
+}
+
+#contacts>p {
+text-align: center;
+}
+
+#input>input, #input>textarea {
+width: 100%;
+}
+
+#input {
+  background-image: inherit;
+}
+
+
+
